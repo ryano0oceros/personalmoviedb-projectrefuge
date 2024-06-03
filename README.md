@@ -36,7 +36,13 @@ The SQLite database allows for various SQL queries to be performed, enabling use
 
 ## Potential Enhancements and Personal Movie Recommendation System
 
-As a future enhancement, one could include a table for personal movie ratings and locations, thereby enriching the database with personal collection details. Additionally, the development of a personal movie recommendation system based on user ratings and preferences is a promising direction. This system could leverage machine learning algorithms to provide personalized movie recommendations. Automated web scraping could also be implemented to update the database with metadata (similarly to how Plex media server works) to include things like the movie poster.
+Some possible future enhancements, could include: 
+- Personalized Recommendations: This system could leverage machine learning algorithms to provide this based on ratings and viewing history, the application can recommend movies from both your collection and external sources like IMDb.
+- Inventory Management: Easily track where each movie is located (e.g., hard drives, streaming services, physical DVDs).
+- Automated Web Scraping: could also be implemented to update the database with metadata (similarly to how Plex media server works) to include things like the movie poster, actors/actresses, etc..
+- Detailed Reviews: Add personal reviews and notes to each movie, creating a comprehensive personal movie diary.
+- Custom User Interface: can build in a web-based frontend for easy access and management of the movie collection with features like search/filter/sort, Add/Update/Delete, and visualizations.
+
 
 ## Advantages of the Go Movie Application
 
@@ -48,5 +54,4 @@ The Go movie application offers several advantages over IMDb alone. It provides
 
 ## Conclusion
 
-The SQLite movie database project demonstrates the feasibility of using Go and SQLite for managing a personal movie collection. The project lays the groundwork for further enhancements, including a personal movie recommendation system, which could offer advantages over existing solutions like IMDb by providing personalized recommendations.
-
+The SQLite movie database project demonstrates the feasibility of using Go and SQLite for managing a personal movie collection. The project lays the groundwork for further enhancements, listed above.

@@ -72,19 +72,6 @@ func main1() error {
 	return nil
 }
 
-// func createTables(db *sql.DB) error {
-// 	// Create table query
-// 	query := `
-// 	CREATE TABLE IF NOT EXISTS movies (
-// 		id INTEGER PRIMARY KEY,
-// 		name TEXT,
-// 		year INTEGER
-// 	);
-// 	`
-// 	_, err := db.Exec(query)
-// 	return err
-// }
-
 func populateDatabase(db *sql.DB) error {
 	// Create table
 	query := `
